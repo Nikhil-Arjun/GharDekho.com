@@ -55,12 +55,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #fcf5f3;
+    background-color: #222831;
+    color: white;
     height: 100%;
     font-weight: 500;
 
     @include md {
       background-color: transparent;
+      color: black;
     }
 
     a {
@@ -69,7 +71,7 @@ nav {
     }
 
     .register {
-      background-color: #fece51;
+      background-color: #00adb5;
     }
 
     .menuIcon {
